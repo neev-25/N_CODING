@@ -1,0 +1,1 @@
+{"name":"Local: Expedi_GA","url":"d:\\Coding\\C++\\Expedi_GA.cpp","tests":[{"id":1723108447714,"input":"1\n4\n4 4\n5 2\n11 5\n15 10\n25 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\Expedi_GA.cpp","group":"local","local":true}

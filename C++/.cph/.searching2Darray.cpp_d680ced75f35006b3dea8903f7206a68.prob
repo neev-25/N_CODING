@@ -1,0 +1,1 @@
+{"name":"Local: searching2Darray","url":"d:\\Coding\\C++\\searching2Darray.cpp","tests":[{"id":1717994446463,"input":"3 3\n89 17 10\n6 8 1\n17 89 35\n89","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\searching2Darray.cpp","group":"local","local":true}

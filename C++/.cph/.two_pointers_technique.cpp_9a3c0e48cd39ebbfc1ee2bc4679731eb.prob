@@ -1,0 +1,1 @@
+{"name":"Local: two_pointers_technique","url":"d:\\Coding\\C++\\two_pointers_technique.cpp","tests":[{"id":1721213622046,"input":"6 24\n12 3 6 9 34 25","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\two_pointers_technique.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: maximumcircularsumarray","url":"d:\\Coding\\C++\\maximumcircularsumarray.cpp","tests":[{"id":1717851457933,"input":"7\n4 -4 6 -6 10 -11 12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\maximumcircularsumarray.cpp","group":"local","local":true}

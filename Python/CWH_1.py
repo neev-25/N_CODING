@@ -1,0 +1,13 @@
+print(2+5)
+print(34%5)
+a1=input("enter the object : ")
+print(type(a1))
+a=int(input("enter num : "))
+b=int(input("enter num : "))
+print(a,"is greater than (yes or no)",b,a>b)
+b1=int(input("entet the num1: "))
+b2=int(input("entet the num2: "))
+print((b1+b2)/2)
+b3=int(input("enter the num : "))
+print(b3**2)
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

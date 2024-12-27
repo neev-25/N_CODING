@@ -1,0 +1,1 @@
+{"name":"Local: calculator","url":"d:\\Coding\\C++\\.cph\\calculator.cpp","tests":[{"id":1717419654574,"input":"9999 1340\n-","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\.cph\\calculator.cpp","group":"local","local":true}

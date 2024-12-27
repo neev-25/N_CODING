@@ -1,0 +1,16 @@
+#box{
+    color: blue;
+    background-color: yellow;
+    font-weight: 300;
+    height: 200px;
+    border:1px solid black;
+
+
+}
+.cont{
+    color:red;
+
+}
+.newClass{
+    background-color: green;
+}

@@ -1,0 +1,1 @@
+{"name":"Local: smallestpositivemissingnumber","url":"d:\\Coding\\C++\\smallestpositivemissingnumber.cpp","tests":[{"id":1717844329258,"input":"6\n0 -9 1 3 -4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\smallestpositivemissingnumber.cpp","group":"local","local":true}

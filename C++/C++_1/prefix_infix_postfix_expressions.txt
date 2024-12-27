@@ -1,0 +1,16 @@
+infix is regular shiws of mathematical expressions like :
+1 + 2 * 3=7
+1 + 2 * 3 + 4 * 5=27
+
+priority of opratorers:(),^,/ *,+ -;
+/ * in this left to right 
++ - in this left ot right
+^ in this right to left 
+
+prefix to infix:
+1 + 2 * 3 ----> + 1 * 2 3
+5 - 6 / 3 ----> - 5 / 6 3 
+
+prefix to postfix:
+1 + 2 * 3 ----> 1 2 3 * +
+5 - 6 / 3 ----> 5 6 3 / -

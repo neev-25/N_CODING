@@ -1,0 +1,1 @@
+{"name":"Local: longestarithmaticsubarray","url":"d:\\Coding\\C++\\longestarithmaticsubarray.cpp","tests":[{"id":1717765251851,"input":"7\n10 7 4 6 8 10 11","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\longestarithmaticsubarray.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: arraytomax","url":"d:\\Coding\\C++\\arraytomax.cpp","tests":[{"id":1717761751505,"input":"6\n0 -9 1 3 -4 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\arraytomax.cpp","group":"local","local":true}

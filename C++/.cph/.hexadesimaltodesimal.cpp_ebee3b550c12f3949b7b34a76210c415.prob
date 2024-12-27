@@ -1,0 +1,1 @@
+{"name":"Local: hexadesimaltodesimal","url":"d:\\Coding\\C++\\hexadesimaltodesimal.cpp","tests":[{"id":1717647739919,"input":"3eC","output":"1004"},{"id":1717649770044,"input":"3eC","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\hexadesimaltodesimal.cpp","group":"local","local":true}

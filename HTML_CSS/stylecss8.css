@@ -1,0 +1,28 @@
+/* div{
+    background-color: pink;/*in this full space occupy */
+    /*display:inline;*//*now as behave as inline so as button work space occupy
+}*/
+div{
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
+
+/*#box2{
+    display:none
+}*/
+
+/*place not founded and box is like deleted */
+/* #box2{
+    visibility:hidden;
+} */
+
+ /*space remina but not box display*/
+ #box4
+ {
+    background-color: rgba(0,0,255,0.10);/*rgb<a> means opacity of the color*/
+ }
+
+ 

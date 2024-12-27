@@ -1,0 +1,35 @@
+for .exe file and run that file ::
+cd "path"
+g++ -o filename filename.cpp
+./filename
+
+(if in file cotain space so add file name if double inverted comma)
+
+one folder back ::
+cd ..\
+
+one folder ahead ::
+cd folder_name 
+
+for clear terminal ::
+clear
+
+***********************************
+
+for git commit ::
+git init
+git add .
+git commit -m "comment"
+
+***********************************
+
+for git full make :: 
+goto particular folder
+git init
+git add .
+git commit -m "comment"
+git branch -M main
+git remote add origin ssh_link
+git push -u origin main
+
+************************************

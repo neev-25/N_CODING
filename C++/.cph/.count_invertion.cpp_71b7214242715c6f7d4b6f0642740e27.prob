@@ -1,0 +1,1 @@
+{"name":"Local: count_invertion","url":"d:\\Coding\\C++\\count_invertion.cpp","tests":[{"id":1719478173766,"input":"8\n3\n5\n6\n9\n1\n2\n7\n8\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\count_invertion.cpp","group":"local","local":true}

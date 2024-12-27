@@ -1,0 +1,19 @@
+*{
+    font-family: "times new roman";
+}
+
+h1{
+    text-align:center;
+    text-transform: capitalize;
+}
+p{
+    text-align: center;
+
+}
+#outer{
+    font-size:25px;
+
+}
+#inner{
+    font-size:10px;
+}

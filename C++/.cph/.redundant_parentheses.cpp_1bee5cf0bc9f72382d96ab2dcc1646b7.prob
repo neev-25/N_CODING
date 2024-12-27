@@ -1,0 +1,1 @@
+{"name":"Local: redundant_parentheses","url":"d:\\Coding\\C++\\redundant_parentheses.cpp","tests":[{"id":1721206000276,"input":"((a+b))","output":""},{"id":1721206046903,"input":"(a+b)","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\redundant_parentheses.cpp","group":"local","local":true}

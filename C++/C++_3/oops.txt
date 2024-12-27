@@ -1,0 +1,10 @@
+
+.........
+OOPS
+.........
+
+~it is an approach or a programming pattern where the program are strutred 
+and around object rather than fundtion and logic
+
+~it is user define data type
+blueprint for creating people

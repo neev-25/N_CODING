@@ -1,0 +1,7 @@
+git init :- for initialize the repository
+git add . :- . for all files or name_of_perticular_file 
+git commit -m "comment" :- add comments in added files
+git branch -M main :- default main, if you have another branch in repository so use can change in in it
+git remote add origin https://github.com/neev-2507/N_CODING.git
+
+git push -u origin main :- this line add all thing on github
