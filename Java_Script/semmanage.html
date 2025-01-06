@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Video Lectures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #0078D7;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            background: #005bb5;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 2em;
+        }
+
+        .subject {
+            margin-bottom: 2em;
+        }
+
+        .subject h2 {
+            color: #0078D7;
+            border-bottom: 2px solid #0078D7;
+            display: inline-block;
+        }
+
+        .faculty {
+            margin-top: 1em;
+            padding: 1em;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faculty h3 {
+            margin: 0;
+            color: #005bb5;
+        }
+
+        .faculty img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 1em;
+        }
+
+        .faculty-details {
+            display: flex;
+            align-items: center;
+        }
+
+        .faculty p {
+            margin: 0.5em 0;
+        }
+
+        .faculty a {
+            color: #0078D7;
+            text-decoration: none;
+        }
+
+        .faculty a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Faculty Video Lectures</h1>
+    </header>
+    <nav>
+        <a href="#ph">Physics</a>
+        <a href="#ec">Electronics</a>
+        <a href="#hs">Humanities & Social Sciences</a>
+        <a href="#ma">Mathematics</a>
+        <a href="#it">Information Technology</a>
+    </nav>
+    <div class="container">
+        <!-- Physics Section -->
+        <section id="ph" class="subject">
+            <h2>Physics</h2>
+            <div class="faculty">
+                <div class="faculty-details">
+                    <img src="https://via.placeholder.com/150" alt="Dr. A. Kumar">
+                    <div>
+                        <h3>Dr. A. Kumar</h3>
+                        <p>PhD in Theoretical Physics, MIT</p>
+                        <p>Research Areas: Quantum Mechanics, Astrophysics</p>
+                    </div>
+                </div>
+                <p><a href="https://www.youtube.com/example1" target="_blank">Lecture 1: Basics of Physics</a></p>
+                <p><a href="https://www.youtube.com/example2" target="_blank">Lecture 2: Advanced Physics Concepts</a></p>
+            </div>
+        </section>
+
+        <!-- Electronics Section -->
+        <section id="ec" class="subject">
+            <h2>Electronics</h2>
+            <div class="faculty">
+                <div class="faculty-details">
+                    <img src="https://via.placeholder.com/150" alt="Dr. B. Singh">
+                    <div>
+                        <h3>Dr. B. Singh</h3>
+                        <p>PhD in Electrical Engineering, Stanford</p>
+                        <p>Research Areas: Circuit Design, Semiconductor Devices</p>
+                    </div>
+                </div>
+                <p><a href="https://www.youtube.com/example3" target="_blank">Lecture 1: Introduction to Electronics</a></p>
+                <p><a href="https://www.youtube.com/example4" target="_blank">Lecture 2: Circuit Analysis</a></p>
+            </div>
+        </section>
+
+        <!-- Humanities Section -->
+        <section id="hs" class="subject">
+            <h2>Humanities & Social Sciences</h2>
+            <div class="faculty">
+                <div class="faculty-details">
+                    <img src="https://via.placeholder.com/150" alt="Dr. C. Sharma">
+                    <div>
+                        <h3>Dr. C. Sharma</h3>
+                        <p>PhD in Sociology, Oxford University</p>
+                        <p>Research Areas: Behavioral Studies, Social Dynamics</p>
+                    </div>
+                </div>
+                <p><a href="https://www.youtube.com/example5" target="_blank">Lecture 1: Understanding Society</a></p>
+                <p><a href="https://www.youtube.com/example6" target="_blank">Lecture 2: Behavioral Studies</a></p>
+            </div>
+        </section>
+
+        <!-- Mathematics Section -->
+        <section id="ma" class="subject">
+            <h2>Mathematics</h2>
+            <div class="faculty">
+                <div class="faculty-details">
+                    <img src="https://via.placeholder.com/150" alt="Dr. D. Patel">
+                    <div>
+                        <h3>Dr. D. Patel</h3>
+                        <p>PhD in Applied Mathematics, University of Cambridge</p>
+                        <p>Research Areas: Linear Algebra, Differential Equations</p>
+                    </div>
+                </div>
+                <p><a href="https://www.youtube.com/example7" target="_blank">Lecture 1: Linear Algebra</a></p>
+                <p><a href="https://www.youtube.com/example8" target="_blank">Lecture 2: Calculus</a></p>
+            </div>
+        </section>
+
+        <!-- Information Technology Section -->
+        <section id="it" class="subject">
+            <h2>Information Technology</h2>
+            <div class="faculty">
+                <div class="faculty-details">
+                    <img src="https://via.placeholder.com/150" alt="Dr. E. Verma">
+                    <div>
+                        <h3>Dr. E. Verma</h3>
+                        <p>PhD in Computer Science, Carnegie Mellon University</p>
+                        <p>Research Areas: Networking, Cloud Computing</p>
+                    </div>
+                </div>
+                <p><a href="https://www.youtube.com/example9" target="_blank">Lecture 1: Basics of IT</a></p>
+                <p><a href="https://www.youtube.com/example10" target="_blank">Lecture 2: Networking Concepts</a></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"name":"Local: graph_Representation","url":"d:\\Coding\\C++\\C++_3\\graph_Representation.cpp","tests":[{"id":1735457541129,"input":"5 6\n0 1 1 \n0 2 2\n1 2 3\n1 3 4\n2 4 5\n3 4 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++\\C++_3\\graph_Representation.cpp","group":"local","local":true}

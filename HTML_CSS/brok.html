@@ -1,0 +1,385 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brokerage Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .section h2 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            text-transform: uppercase;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .section li {
+            margin: 0.5rem;
+            padding: 0.5rem;
+            background: #ecf0f1;
+            border-radius: 5px;
+            flex: 1 1 calc(33% - 1rem);
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to XYZ Brokerage</h1>
+    </header>
+
+    <nav>
+        <a href="#pg">PGs</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#hostels">Hostels</a>
+        <a href="#flats">Flats</a>
+        <a href="#rent-houses">Rent Houses</a>
+        <a href="#rent-shops">Rent Shops</a>
+        <a href="#offices">Offices</a>
+    </nav>
+
+    <div class="container">
+        <div id="pg" class="section">
+            <h2>PGs</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/pg-boys.jpg" alt="PG for Boys">
+                    PG for Boys - Starting from $200/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/pg-girls.jpg" alt="PG for Girls">
+                    PG for Girls - Starting from $250/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/luxury-pg.jpg" alt="Luxury PGs">
+                    Luxury PGs - Starting from $400/month
+                </li>
+            </ul>
+        </div>
+
+        <div id="hotels" class="section">
+            <h2>Hotels</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/3-star-hotel.jpg" alt="3-star Hotels">
+                    3-star Hotels - Starting from $50/night
+                </li>
+                <li>
+                    <img src="https://www.example.com/5-star-hotel.jpg" alt="5-star Hotels">
+                    5-star Hotels - Starting from $150/night
+                </li>
+                <li>
+                    <img src="https://www.example.com/budget-hotel.jpg" alt="Budget Hotels">
+                    Budget Hotels - Starting from $30/night
+                </li>
+            </ul>
+        </div>
+
+        <div id="hostels" class="section">
+            <h2>Hostels</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/male-hostel.jpg" alt="Male Hostels">
+                    Male Hostels - Starting from $100/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/female-hostel.jpg" alt="Female Hostels">
+                    Female Hostels - Starting from $120/month
+                </li>
+            </ul>
+        </div>
+
+        <div id="flats" class="section">
+            <h2>Flats</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/1bhk-flat.jpg" alt="1 BHK Flats">
+                    1 BHK Flats - Starting from $300/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/2bhk-flat.jpg" alt="2 BHK Flats">
+                    2 BHK Flats - Starting from $500/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/3bhk-flat.jpg" alt="3 BHK Flats">
+                    3 BHK Flats - Starting from $700/month
+                </li>
+            </ul>
+        </div>
+
+        <div id="rent-houses" class="section">
+            <h2>Rent Houses</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/small-house.jpg" alt="Small Houses">
+                    Small Houses - Starting from $400/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/family-house.jpg" alt="Family Houses">
+                    Family Houses - Starting from $800/month
+                </li>
+            </ul>
+        </div>
+
+        <div id="rent-shops" class="section">
+            <h2>Rent Shops</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/small-shop.jpg" alt="Small Shops">
+                    Small Shops - Starting from $200/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/commercial-space.jpg" alt="Commercial Spaces">
+                    Commercial Spaces - Starting from $500/month
+                </li>
+            </ul>
+        </div>
+
+        <div id="offices" class="section">
+            <h2>Offices</h2>
+            <ul>
+                <li>
+                    <img src="https://www.example.com/shared-office.jpg" alt="Shared Offices">
+                    Shared Offices - Starting from $100/month
+                </li>
+                <li>
+                    <img src="https://www.example.com/private-office.jpg" alt="Private Offices">
+                    Private Offices - Starting from $600/month
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 XYZ Brokerage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brokerage Website</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      padding: 1rem 2rem;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #ecf0f1;
+    }
+
+    .login-btn {
+      background-color: #e74c3c;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background-color: #3498db;
+      color: white;
+    }
+
+    .cta-btn {
+      background-color: #e74c3c;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .listings {
+      padding: 2rem;
+      background-color: #ecf0f1;
+    }
+
+    .property-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .property-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .property-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .footer {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">HomeFinder</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#listings">Listings</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="login-btn">Login</button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Find Your Perfect Home</h1>
+    <p>Explore homes, hostels, and PGs tailored to your needs.</p>
+    <button class="cta-btn">Browse Listings</button>
+  </section>
+
+  <section id="listings" class="listings">
+    <h2>Available Properties</h2>
+    <div class="property-grid">
+      <div class="property-card">
+        <img src="https://via.placeholder.com/150" alt="House Image">
+        <h3>Luxury Apartment</h3>
+        <p>Location: Downtown</p>
+        <p>Price: $1200/month</p>
+        <button class="details-btn">View Details</button>
+      </div>
+      <div class="property-card">
+        <img src="https://via.placeholder.com/150" alt="House Image">
+        <h3>Cozy PG</h3>
+        <p>Location: Suburb</p>
+        <p>Price: $400/month</p>
+        <button class="details-btn">View Details</button>
+      </div>
+      <!-- Add more property cards here -->
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Property Buy/Sell Assistance</li>
+      <li>Rental Agreements</li>
+      <li>Home Loans</li>
+    </ul>
+  </section>
+
+  <footer id="contact" class="footer">
+    <p>&copy; 2025 HomeFinder. All Rights Reserved.</p>
+    <p>Contact us: info@homefinder.com</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.details-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        alert('Property details coming soon!');
+      });
+    });
+
+    document.querySelector('.cta-btn').addEventListener('click', () => {
+      window.scrollTo({ top: document.querySelector('#listings').offsetTop, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
